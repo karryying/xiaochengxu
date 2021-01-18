@@ -1,0 +1,27 @@
+<!-- template  vue -->
+<!-- view --》div 盒子视图容器 -->
+<!-- mustache语法  {{}} -->
+<view>{{ msg }}</view>
+<view id="item-{{ id }}">属性绑定</view>
+
+<!-- <view>{{ arr[0] }}</view> -->
+
+<!-- 循环  默认值： item，index-->
+<view wx:for="{{ arr }}">
+  {{ item }}--{{ index }}
+</view>
+
+<!-- 
+    事件绑定 
+    bind + tap ===   on + click
+
+    注意： 事件函数调用时，不能加（）
+    传参：
+      data-*
+-->
+<!-- <button bindtap="click()">按钮</button> -->
+<button bindtap="click"  data-age="99" data-name="admin">按钮</button>
+<!-- 样式 -->
+<view   class="box" style="line-height:100px;color:#fff">
+  内联样式
+</view>

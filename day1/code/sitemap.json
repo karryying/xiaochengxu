@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "page": "pages/index/index",
+      "params": ["id","num"],
+      "matching": "exclusive",
+      "action": "allow"
+    },
+    {
+      "action": "disallow",
+      "page": "*",
+      "priority":1
+    }
+  ]
+}

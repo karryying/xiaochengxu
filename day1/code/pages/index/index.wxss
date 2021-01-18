@@ -1,0 +1,9 @@
+page{
+  /* background-color: #123456; */
+  background-color: #fff;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+}
